@@ -321,7 +321,7 @@ __10__ - As a **user**, I want **the quiz game to be accessible and responsive o
 
 - *Enhanced Usability:* Responsive design ensures that all interactive elements (buttons, menus, etc.) are appropriately sized and functional on different devices. This enhances usability and encourages users to play the game more frequently.
 
-[User story 10 Test]()
+![User story 10 Test](media/user-story-10.png)
 
 __11__ - As a **site manager**, I want to **enhance the quiz application by introducing a 10-second timer for each of the 20 questions in the quiz** so that **I can increase the challenge and engagement level for users, making the quiz more dynamic and exciting while encouraging quick thinking and fair competition**.
 
@@ -438,6 +438,8 @@ __10__ - __Local Storage Limits__
 - Workaround: Clear your browser’s local storage periodically, but be aware that this will also delete your saved leaderboard data.
 
 ## Deployment
+
+[Deployed Project Link](https://terencetamuka.github.io/individual-fullstack-project/game.html)
 
 ### Credits
 
