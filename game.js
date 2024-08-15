@@ -23,13 +23,13 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'Which country is known as the Land of the Rising Sun?',
-        choice1: 'China',
-        choice2: 'Japan',
-        choice3: 'India',
-        choice4: 'Thailand',
-        answer: 2,
-     },
+        question: 'Who is known as the father of the World Wide Web?',
+        choice1: 'Tim Berners-Lee',
+        choice2: 'Vint Cerf',
+        choice3: 'Steve Wozniak',
+        choice4: 'Elon Musk',
+        answer: 1,
+    },
      {
         question: 'What is the chemical symbol for water?',
         choice1: 'H2O',
@@ -175,12 +175,12 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'Which physicist is known for the Uncertainty Principle?',
-        choice1: 'Albert Einstein',
-        choice2: 'Isaac Newton',
-        choice3: 'Werner Heisenberg',
-        choice4: 'Niels Bohr',
-        answer: 3,
+        question: 'What is the name of the first artificial satellite launched into space?',
+        choice1: 'Explorer 1',
+        choice2: 'Sputnik 1',
+        choice3: 'Voyager 1',
+        choice4: 'Apollo 11',
+        answer: 2,
     }
 ]
 
