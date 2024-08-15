@@ -1,0 +1,149 @@
+body {
+    color: #fff;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(179, 63, 12);/**Chose a darker shade for readability for players **//* background: rgb(255, 93, 18); */
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(2, 245, 55, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+#timer{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(45deg, rgba(230, 29, 1) 0%, rgba(224, 11, 11, 1) 100%);
+}
+
+/* Heads up Display styling*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    width: 0%;
+    height: 100%;
+    background: rgb(11, 223, 36);
+}
+.fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px){
+    .choice-container {
+        min-width: 40rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        background: rgb(179, 63, 12);
+
+    }
+    .correct {
+        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+    }
+    
+    .incorrect {
+        background: linear-gradient(45deg, rgba(230, 29, 1) 0%, rgba(224, 11, 11, 1) 100%);
+    }
+
+    #question {
+        font-size: 1.5rem; /* Adjust font size for better readability on mobile */
+        padding: 1rem; /* Add padding for better spacing */
+        text-align: center; /* Center-align the text for a cleaner look */
+        word-wrap: break-word; /* Ensure long words break and wrap to the next line */
+    }
+    .fa-crown {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        color: #fff;
+    }
+    #timer{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .choice-container {
+        min-width: 30rem; /* Example adjustment for smaller screens */
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        background: rgb(179, 63, 12);
+    }
+    .correct {
+        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+    }
+    
+    .incorrect {
+        background: linear-gradient(45deg, rgba(230, 29, 1) 0%, rgba(224, 11, 11, 1) 100%);
+    }
+
+    #question {
+        font-size: 1.2rem; /* Further adjust font size for smaller screens */
+        padding: 1rem;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .fa-crown {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        color: #fff;
+    }
+    #timer{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    
+}
