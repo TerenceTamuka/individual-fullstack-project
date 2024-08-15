@@ -97,7 +97,7 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 - As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
 
-- As a **user**, I want **the option to replay the quiz from the leaderboard screen** so that **I can attempt to improve my score**.
+- As a **user**, I want **to see a progression bar** so that **I can easily track how many questions remain in the quiz**.
 
 - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
@@ -224,15 +224,15 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
 - Lighthouse tools were also utilised to test the website.
 
-Desktop :
+__Desktop View Lighthouse Scores:__
 
-[Home page - Desktop Scores]()
-[Quiz page - Desktop Scores]()
+__Home page - Desktop Scores__ ![Home page - Desktop Scores](media/DesktopHomePageLighthouseTestScores.png)
+__Quiz page - Desktop Scores__ ![Quiz page - Desktop Scores](media/DesktopQuizPageLighthouseTest.png)
 [Submit score page - Desktop Scores]()
 [Leaderboard page - Desktop Scores]()
 
 
-Mobile View:
+__Mobile View Lighthouse Scores:__
 
 [Home page - Mobile Scores]()
 [Quiz page - Mobile Scores]()
@@ -307,11 +307,10 @@ __8__- As a **user**, I want **to see the leaderboard with top scores after savi
 
 ![User story 8 Test](media/user-story-8.png)
 
-__9__- As a **user**, I want **the option to replay the quiz from the end of game screen** so that **I can attempt to improve my score**.
+__9__- As a **user**, I want **to see a progression bar** so that **I can easily track how many questions remain in the quiz**.
 
-- *Continuous Improvement:* Allowing users to replay the quiz directly from the end of game screen promotes continuous engagement by providing an easy path for users to attempt higher scores. This feature encourages users to interact with the quiz more frequently.
+- *Continuous Improvement:* Testing the progress bar feature is important because it enhances the user experience by providing a visual indicator of quiz progression. This feedback helps users manage their time and maintain engagement by knowing how far they are into the quiz and how many questions remain. Ensuring that the progress bar functions correctly is crucial for maintaining user satisfaction and a seamless quiz experience.
 
-- *Performance Tracking:* Allowing users to replay the quiz facilitates tracking of performance improvements over time. This can be valuable for both users looking to see their progress and for administrators analyzing user engagement metrics.
 
 
 ![User story 9 Test](media/user-story-9.png)
