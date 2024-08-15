@@ -247,7 +247,7 @@ __1__ - As a **user** I want **to easily start the quiz from the home screen** s
 
 - *First Impressions:* The home screen is often the first point of interaction users have with the quiz application. A clear, easily accessible start button ensures a positive first impression and encourages users to engage with the content.
 
-[User story 1 Test]()
+![User story 1 Test](media/user-story-1.png)
 
 __2__ - As a **user** I want **to see the current question number and my score as I progress through the quiz** so that **I can keep track of my performance**.
 
@@ -255,7 +255,7 @@ __2__ - As a **user** I want **to see the current question number and my score a
 
 - *Real-Time Feedback:* Showing the score in real-time allows users to gauge their performance and encourages them to strive for better results. It adds an element of gamification, making the quiz more engaging and competitive.
 
-[User story 2 Test]()
+![User story 2 Test](media/user-story-2.png)
 
 __3__ - As a **user**, I want **the quiz questions to be displayed clearly with multiple-choice options** so that **I can easily select my answers**.
 
@@ -263,7 +263,7 @@ __3__ - As a **user**, I want **the quiz questions to be displayed clearly with 
 
 - *Intuitive Design:* A clear and intuitive interface enhances user engagement by making the quiz easy and enjoyable to interact with. This is essential for keeping users interested and encouraging them to complete the quiz.
 
-[User story 3 Test]()
+![User story 3 Test](media/user-story-3.png)
 
 __4__ - As a **user**, I want **to receive immediate feedback on my score after each question** so that **I can know how well I’m doing in real-time**.
 
@@ -271,7 +271,7 @@ __4__ - As a **user**, I want **to receive immediate feedback on my score after 
 
 - *User-Centric Design:* Providing real-time feedback aligns with user expectations in modern interactive applications. Ensuring this feature works correctly is crucial for meeting user needs and delivering a polished product.
 
-[User story 4 Test]()
+![User story 4 Test](media/user-story-4.png)
 
 __5__ - As a **user**, I want **to view my final score after completing the quiz** so that **I can reflect on my overall performance**.
 
@@ -279,7 +279,7 @@ __5__ - As a **user**, I want **to view my final score after completing the quiz
 
 - *Reflection and Learning:* Viewing the final score allows users to reflect on their performance, identify areas where they did well, and recognize where they need improvement. This reflective process is important for users who take quizzes for learning purposes.
 
-[User story 5 Test]()
+![User story 5 Test](media/user-story-5.png)
 
 __6__ - As a **user**, I want **to be required to enter my name before saving my score** so that **the leader board displays personalized entries**.
 
@@ -287,16 +287,16 @@ __6__ - As a **user**, I want **to be required to enter my name before saving my
 
 - *Authenticity:* Requiring a name entry before saving a score ensures that each score is authentic and traceable to a specific user. This reduces the likelihood of users attempting to manipulate the leaderboard with multiple anonymous entries.
 
-[User story 6 Test]()
+![User story 6 Test](media/user-story-6.png)
 
 __7__ - As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
 
-- *Enhanced User Experience:* Error messages are a critical part of user experience design. By providing immediate feedback on what went wrong, the application helps users correct their mistakes quickly, leading to a smoother and more intuitive interaction.
+- *Enhanced User Experience:* Error messages are a critical part of user experience design. By providing immediate feedback on what went wrong, the application helps users correct their mistakes quickly, leading to a smoother and more intuitive interaction. In this application, the save button wont be clickable before user enters their name.
 
 - *Preventing Incomplete Entries:* Requiring a name entry before saving a score ensures that all leaderboard entries are complete and personalized. This maintains the integrity and usefulness of the leaderboard, preventing it from being cluttered with anonymous or incomplete entries.
 
 
-[User story 7 Test]()
+![User story 7 Test](media/user-story-7.png)
 
 __8__- As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
 
@@ -305,16 +305,16 @@ __8__- As a **user**, I want **to see the leaderboard with top scores after savi
 - *Informed Decision-Making:* Users can decide whether to take the quiz again to improve their ranking based on how they compare to the top scores, driving continued interaction with the quiz.
 
 
-[User story 8 Test]()
+![User story 8 Test](media/user-story-8.png)
 
-__9__- As a **user**, I want **the option to replay the quiz from the leaderboard screen** so that **I can attempt to improve my score**.
+__9__- As a **user**, I want **the option to replay the quiz from the end of game screen** so that **I can attempt to improve my score**.
 
-- *Continuous Improvement:* Allowing users to replay the quiz directly from the leaderboard screen promotes continuous engagement by providing an easy path for users to attempt higher scores. This feature encourages users to interact with the quiz more frequently.
+- *Continuous Improvement:* Allowing users to replay the quiz directly from the end of game screen promotes continuous engagement by providing an easy path for users to attempt higher scores. This feature encourages users to interact with the quiz more frequently.
 
 - *Performance Tracking:* Allowing users to replay the quiz facilitates tracking of performance improvements over time. This can be valuable for both users looking to see their progress and for administrators analyzing user engagement metrics.
 
 
-[User story 9 Test]()
+![User story 9 Test](media/user-story-9.png)
 
 __10__ - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
@@ -330,7 +330,7 @@ __11__ - As a **site manager**, I want to **enhance the quiz application by intr
 
 - *Equal Opportunity:* Setting a uniform timer for all users ensures that everyone faces the same time constraints, promoting fairness in competition. This standardization helps level the playing field and ensures that scores are based on skill and knowledge, rather than timing advantages.
 
-[User story 11 Test]()
+![User story 11 Test](media/user-story-11.png)
 
 
 ### Features For Future Implementation

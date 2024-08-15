@@ -141,6 +141,7 @@ input::placeholder{
     color: rgb(28, 26,26);
 }
 
+/*Media query for tablet/ iPad compatibility*/
 @media screen and (max-width: 768px){
     .choice-container {
         min-width: 40rem;
@@ -185,6 +186,7 @@ input::placeholder{
     
 }
 
+/*Media query for mobile device compatibility*/
 @media screen and (max-width: 480px) {
     .choice-container {
         min-width: 30rem; /* Example adjustment for smaller screens */
