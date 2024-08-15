@@ -9,6 +9,6 @@ assignees: ''
 
 As a:USER
 
-I can: ACTION
+I want: ACTION
 
 so that: BENEFIT
