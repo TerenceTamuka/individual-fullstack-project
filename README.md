@@ -204,13 +204,17 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
 ### Validating
 
-- HTML
+- HTML Home, Quiz, End Page & HighScores Page Validations
 
-  - [HTML Index, Quiz, End Page & HighScores Page Validations](https://validator.w3.org/)
+  - [HTML Validator Used](https://validator.w3.org/)
 
   ![HTML - Index Page Validation](media/indexPageValidationFeedback.png)
 
   ![HTML - Quiz Page Validation](media/quizPageValidationFeedback.png)
+
+  ![HTML - End Page Validation](media/endPageValidationFeedback.png)
+
+  ![HTML - High Scores Page Validation](media/highScoresPageValidationFeedback.png)
 
 - CSS
 
