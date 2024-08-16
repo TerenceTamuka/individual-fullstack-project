@@ -238,7 +238,7 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
 - Lighthouse tools were also utilised to test the website.
 
-__Desktop View Lighthouse Scores:__
+### Desktop View Lighthouse Scores:
 
 __Home page - Desktop Scores__ ![Home page - Desktop Scores](media/DesktopHomePageLighthouseTestScores.png)
 
@@ -249,11 +249,14 @@ __Submit score page - Desktop Scores__ ![Submit score page - Desktop Scores](med
 __Leaderboard page - Desktop Scores__ ![Leaderboard page - Desktop Scores](media/DesktopHighscoresPageLighthouseTestScore.png)
 
 
-__Mobile View Lighthouse Scores:__
+### Mobile View Lighthouse Scores:
 
-[Home page - Mobile Scores]()
-[Quiz page - Mobile Scores]()
-[Submit score page - Mobile Scores]()
+__Home Page Lighthouse Test Results__ ![Home page - Mobile Scores](media/MobileHomepageLighthouseTestScores.png)
+
+__Quiz Page Lighthouse Test Results__ ![Quiz page - Mobile Scores](media/MobileQuizPageLighthouseTestScores.png)
+
+__End Page Lighthouse Test Results__ ![Submit score page - Mobile Scores](media/MobileEndPageLighthouseTestScores.png)
+
 __Leaderboard page - Mobile Scores__ ![Leaderboard page - Mobile Scores](media/MobileHighscorespageLighthouseTestScores.png)
 
 ## User Story Testing
