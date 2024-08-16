@@ -216,11 +216,15 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
   ![HTML - High Scores Page Validation](media/highScoresPageValidationFeedback.png)
 
-- CSS
+- CSS - Main Styles, Highscores & Game/Quiz Styles Validations
 
-  -[CSS Validation](https://jigsaw.w3.org/css-validator/)
+  - [CSS Validator Used](https://jigsaw.w3.org/css-validator/)
 
-  ![CSS]()
+  ![CSS Main styles Validation](media/CSS-Main-Styles-Validation.png)
+
+  ![CSS Game Styles Validation](media/CSS-GameStyles-Validation.png)
+
+  ![CSS Highscores Page Styles Validation](media/CSS-HighscoresPageStyles-Validation.png)
 
 - JavaScript
 
