@@ -204,7 +204,7 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
 ### Validating
 
-- HTML Home, Quiz, End Page & HighScores Page Validations
+__HTML Home, Quiz, End Page & HighScores Page Validations:__
 
   - [HTML Validator Used](https://validator.w3.org/)
 
@@ -216,7 +216,7 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
   ![HTML - High Scores Page Validation](media/highScoresPageValidationFeedback.png)
 
-- CSS - Main Styles, Highscores & Game/Quiz Styles Validations
+__CSS - Main Styles, Highscores & Game/Quiz Styles Validations:__
 
   - [CSS Validator Used](https://jigsaw.w3.org/css-validator/)
 
@@ -226,7 +226,7 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
   ![CSS Highscores Page Styles Validation](media/CSS-HighscoresPageStyles-Validation.png)
 
-- JavaScript - Game, Highscores & End Page Validations
+__JavaScript - Game, Highscores & End Page Validations:__
 
   - [JavaScript Validator Used](https://jshint.com/)
 
@@ -236,7 +236,9 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
   ![JavaScript End Page Validation](media/JavaScript-EndPage-Validation.png)
 
-- Lighthouse tools were also utilised to test the website.
+
+
+### Lighthouse testing tools were utilised to test each page of the website on both Desktop & Mobile views.
 
 ### Desktop View Lighthouse Scores:
 
@@ -459,13 +461,12 @@ __10__ - __Local Storage Limits__
 
 ## Deployment
 
-[Deployed Project Link](https://terencetamuka.github.io/individual-fullstack-project/game.html)
+[Deployed Project Link](https://terencetamuka.github.io/individual-fullstack-project/)
 
 ### Credits
 
 Credit to stack overflow on understaning certain concepts used in this project.
 
-### Content
 
 ## Acknowledgements
 
