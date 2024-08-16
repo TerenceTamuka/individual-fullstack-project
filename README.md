@@ -206,9 +206,11 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
 - HTML
 
-  - [HTML Validation](https://validator.w3.org/)
+  - [HTML Index, Quiz, End Page & HighScores Page Validations](https://validator.w3.org/)
 
-  ![HTML]()
+  ![HTML - Index Page Validation](media/indexPageValidationFeedback.png)
+
+  ![HTML - Quiz Page Validation](media/quizPageValidationFeedback.png)
 
 - CSS
 
@@ -227,9 +229,12 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 __Desktop View Lighthouse Scores:__
 
 __Home page - Desktop Scores__ ![Home page - Desktop Scores](media/DesktopHomePageLighthouseTestScores.png)
+
 __Quiz page - Desktop Scores__ ![Quiz page - Desktop Scores](media/DesktopQuizPageLighthouseTest.png)
-[Submit score page - Desktop Scores]()
-[Leaderboard page - Desktop Scores]()
+
+__Submit score page - Desktop Scores__ ![Submit score page - Desktop Scores](media/DesktopEndpageLighthouseTestScores.png)
+
+__Leaderboard page - Desktop Scores__ ![Leaderboard page - Desktop Scores](media/DesktopHighscoresPageLighthouseTestScore.png)
 
 
 __Mobile View Lighthouse Scores:__
@@ -237,7 +242,7 @@ __Mobile View Lighthouse Scores:__
 [Home page - Mobile Scores]()
 [Quiz page - Mobile Scores]()
 [Submit score page - Mobile Scores]()
-[Leaderboard page - Mobile Scores]()
+__Leaderboard page - Mobile Scores__ ![Leaderboard page - Mobile Scores](media/MobileHighscorespageLighthouseTestScores.png)
 
 ## User Story Testing
 
