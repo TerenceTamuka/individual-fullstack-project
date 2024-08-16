@@ -261,6 +261,16 @@ __End Page Lighthouse Test Results__ ![Submit score page - Mobile Scores](media/
 
 __Leaderboard page - Mobile Scores__ ![Leaderboard page - Mobile Scores](media/MobileHighscorespageLighthouseTestScores.png)
 
+Lighthouse testing evaluates a website’s performance, accessibility, best practices, and SEO. Here’s why running these tests for this site was important:
+
+*Performance:* Ensures the site loads quickly, enhancing user experience and retention.
+
+*Accessibility:* Verifies that the site is usable by people with disabilities, broadening your audience.
+
+*Best Practices:* Checks for code quality and security issues, reducing potential vulnerabilities.
+
+*SEO:* Optimizes the site for search engines, increasing visibility and traffic.
+
 ## User Story Testing
 
 __1__ - As a **user** I want **to easily start the quiz from the home screen** so that **I can quickly begin answering questions**.
@@ -465,7 +475,7 @@ __10__ - __Local Storage Limits__
 
 ### Credits
 
-Credit to stack overflow on understaning certain concepts used in this project.
+Credit to stack overflow on understanding certain concepts used in this project.
 
 
 ## Acknowledgements
