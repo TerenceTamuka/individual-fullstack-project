@@ -226,11 +226,15 @@ __Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contr
 
   ![CSS Highscores Page Styles Validation](media/CSS-HighscoresPageStyles-Validation.png)
 
-- JavaScript
+- JavaScript - Game, Highscores & End Page Validations
 
-  - [JavaScript Validation](https://validator.w3.org/)
+  - [JavaScript Validator Used](https://jshint.com/)
 
-  ![JavaScript]()
+  ![JavaScript Game/Quiz Page Validation](media/JavaScript-Game-Validation.png)
+
+  ![JavaScript Highscores Page Validation](media/JavaScript-Highscores-Validation.png)
+
+  ![JavaScript End Page Validation](media/JavaScript-EndPage-Validation.png)
 
 - Lighthouse tools were also utilised to test the website.
 

@@ -4,11 +4,11 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progresBarFull = document.querySelector('#progressBarFull');
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 /**
  * Question dictionary array for the Quiz game
@@ -182,14 +182,14 @@ let questions = [
         choice4: 'Apollo 11',
         answer: 2,
     }
-]
+];
 
 
 /**
  * Global variuables for score points, max questions.
  */
-const SCORE_POINTS = 100
-const MAX_QUESTIONS = 20
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 20;
 
 const timerText = document.querySelector('#timer'); // Get the timer element
 let timer;
@@ -198,19 +198,19 @@ let timeLeft = 10; // Time in seconds
 /**
  * Start game function initialization.
  */
-startGame = () => {
+const startGame = () => {
 
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
 
-}
+};
 
 /**
  * Timer method for the 10 seconds timer function
  */
-startTimer = () => {
+const startTimer = () => {
     timeLeft = 10; // Reset timer to 10 seconds
     timerText.innerText = timeLeft;
 
@@ -233,40 +233,40 @@ startTimer = () => {
             }, 1000);
         }
     }, 1000);
-}
+};
 
 /**
  * Get the new question method tied in with the 10 seconds timers on each question.
  */
-getNewQuestion = () => {
+const getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
+        localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('end.html')
+        return window.location.assign('end.html');
     }
 
-    questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progresBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+    progresBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice' + number]
-    })
+        const number = choice.dataset.number;
+        choice.innerText = currentQuestion[`choice${number}`];
+    });
 
-    availableQuestions.splice(questionsIndex, 1)
+    availableQuestions.splice(questionsIndex, 1);
 
-    acceptingAnswers = true
+    acceptingAnswers = true;
 
     clearInterval(timer); // Clear any existing timer
     startTimer(); // Start a new timer for the current question
 
-}
+};
 
 /**
  * Multple choice answers process method and event handlers for realtime UX interaction
@@ -274,37 +274,37 @@ getNewQuestion = () => {
 choices.forEach(choice => {
 
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if(!acceptingAnswers) return;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset.number;
 
-        let classToApply = selectedAnswer == currentQuestion.answer? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         clearInterval(timer); // Stop the timer when an answer is selected
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        }, 1000)
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
 
         
-    })
-})
+    });
+});
 
 /**
  * Score incremental function for each time user gets a correct answer
  */
-incrementScore = num => {
-    score +=num
-    scoreText.innerText = score
-}
+const incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+};
 
-startGame()
+startGame();
