@@ -127,7 +127,7 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 |  **Features**  |  **Value**  | **Effort**  |
 |---|---|---|
-| Homepage  |  High  | low  |
+| Home Page  |  High  | low  |
 | Quiz Page  | High |  High  |
 | End Page  | Medium | High |
 | High Scores Page  | Medium | Low |
@@ -135,11 +135,11 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 | Feature  |  Priority  |
 |---|---|
-| Homepage | 3 |
+| Home Page | 3 |
 | Quiz Page  | 5 |
 | End Page  | 4 |
 | High Scores Page  | 3 |
-| Navbar  | 4 |
+| Navbar  | 5 |
 
 
 
