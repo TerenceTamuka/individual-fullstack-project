@@ -118,6 +118,29 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 - Play Again: After completing the quiz, you can choose to play again and improve your score.
 
+## High-Level Features
+
+| **Home page** | **Quiz Page** | **End Page** |  **High Scores Page**  | 
+|---|---|---|---|
+| Welcome  Page displaying prompt message and two navbars to play or view top scores  | Quiz Game containing 20 questions with a 10 seconds timer  | Final Score displayed with *Name requirement* to save score and additional navbars to either play again or return home  |  Leaderboard Displaying top 5 highscores with respective player names  |
+
+
+|  **Features**  |  **Value**  | **Effort**  |
+|---|---|---|
+| Homepage  |  High  | low  |
+| Quiz Page  | High |  High  |
+| End Page  | Medium | High |
+| High Scores Page  | Medium | Low |
+| Navbar  | High | High |
+
+| Feature  |  Priority  |
+|---|---|
+| Homepage | 3 |
+| Quiz Page  | 5 |
+| End Page  | 4 |
+| High Scores Page  | 3 |
+| Navbar  | 4 |
+
 
 
 ### Site Wireframes
