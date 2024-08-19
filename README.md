@@ -3,7 +3,7 @@
 - Welcome to Terry's General Knowledge Quiz Game! This interactive quiz challenges players with 20 questions covering a wide range of topics. As you progress through the game, your score will be updated in real-time, allowing you to see how well you're doing after each question.
 
 
-![Landing Page](media/Responsive-landingpage.png)
+![Landing Page](assets/media/Responsive-landingpage.png)
 
 # UX
 
@@ -147,27 +147,27 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 -__Home Page__
 
-![Home page -Desktop view](media/Desktop-view-homepage.png)
-![Home page -iPad view](media/iPad-view-homepage.png)
-![Home page -Mobile view](media/Mobile-view-homepage.png)
+![Home page -Desktop view](assets/media/Desktop-view-homepage.png)
+![Home page -iPad view](assets/media/iPad-view-homepage.png)
+![Home page -Mobile view](assets/media/Mobile-view-homepage.png)
 
 -__Quiz Game Page__
 
-![Quiz game - Desktop View](media/Desktop-view-quizpage.png)
-![Quiz game - iPad View](media/iPad-view-quizpage.png)
-![Quiz game - Mobile View](media/Mobile-view-quizpage.png)
+![Quiz game - Desktop View](assets/media/Desktop-view-quizpage.png)
+![Quiz game - iPad View](assets/media/iPad-view-quizpage.png)
+![Quiz game - Mobile View](assets/media/Mobile-view-quizpage.png)
 
 -__Submit Score or End Page__
 
-![Submit Score page - Desktop view](media/Desktop-view-endpage.png)
-![Submit Score page - iPad view](media/iPad-view-endpage.png)
-![Submit Score page - Mobile view](media/Mobile-view-endpage.png)
+![Submit Score page - Desktop view](assets/media/Desktop-view-endpage.png)
+![Submit Score page - iPad view](assets/media/iPad-view-endpage.png)
+![Submit Score page - Mobile view](assets/media/Mobile-view-endpage.png)
 
 -__Leaderboard or Top Scores Page__
 
-![Leaderboard page - Desktop view](media/Desktop-view-highscorespage.png)
-![Leaderboard page - iPad view](media/iPad-view-highscorespage.png)
-![Leaderboard page - Mobile view](media/Mobile-view-highscorespage.png)
+![Leaderboard page - Desktop view](assets/media/Desktop-view-highscorespage.png)
+![Leaderboard page - iPad view](assets/media/iPad-view-highscorespage.png)
+![Leaderboard page - Mobile view](assets/media/Mobile-view-highscorespage.png)
 
 
 ## Surface
@@ -231,33 +231,33 @@ __HTML Home, Quiz, End Page & HighScores Page Validations:__
 
   - [HTML Validator Used](https://validator.w3.org/)
 
-  ![HTML - Index Page Validation](media/indexPageValidationFeedback.png)
+  ![HTML - Index Page Validation](assets/media/indexPageValidationFeedback.png)
 
-  ![HTML - Quiz Page Validation](media/quizPageValidationFeedback.png)
+  ![HTML - Quiz Page Validation](assets/media/quizPageValidationFeedback.png)
 
-  ![HTML - End Page Validation](media/endPageValidationFeedback.png)
+  ![HTML - End Page Validation](assets/media/endPageValidationFeedback.png)
 
-  ![HTML - High Scores Page Validation](media/highScoresPageValidationFeedback.png)
+  ![HTML - High Scores Page Validation](assets/media/highScoresPageValidationFeedback.png)
 
 __CSS - Main Styles, Highscores & Game/Quiz Styles Validations:__
 
   - [CSS Validator Used](https://jigsaw.w3.org/css-validator/)
 
-  ![CSS Main styles Validation](media/CSS-Main-Styles-Validation.png)
+  ![CSS Main styles Validation](assets/media/CSS-Main-Styles-Validation.png)
 
-  ![CSS Game Styles Validation](media/CSS-GameStyles-Validation.png)
+  ![CSS Game Styles Validation](assets/media/CSS-GameStyles-Validation.png)
 
-  ![CSS Highscores Page Styles Validation](media/CSS-HighscoresPageStyles-Validation.png)
+  ![CSS Highscores Page Styles Validation](assets/media/CSS-HighscoresPageStyles-Validation.png)
 
 __JavaScript - Game, Highscores & End Page Validations:__
 
   - [JavaScript Validator Used](https://jshint.com/)
 
-  ![JavaScript Game/Quiz Page Validation](media/JavaScript-Game-Validation.png)
+  ![JavaScript Game/Quiz Page Validation](assets/media/JavaScript-Game-Validation.png)
 
-  ![JavaScript Highscores Page Validation](media/JavaScript-Highscores-Validation.png)
+  ![JavaScript Highscores Page Validation](assets/media/JavaScript-Highscores-Validation.png)
 
-  ![JavaScript End Page Validation](media/JavaScript-EndPage-Validation.png)
+  ![JavaScript End Page Validation](assets/media/JavaScript-EndPage-Validation.png)
 
 
 
@@ -265,24 +265,24 @@ __JavaScript - Game, Highscores & End Page Validations:__
 
 ### Desktop View Lighthouse Scores:
 
-__Home page - Desktop Scores__ ![Home page - Desktop Scores](media/DesktopHomePageLighthouseTestScores.png)
+__Home page - Desktop Scores__ ![Home page - Desktop Scores](assets/media/DesktopHomePageLighthouseTestScores.png)
 
-__Quiz page - Desktop Scores__ ![Quiz page - Desktop Scores](media/DesktopQuizPageLighthouseTest.png)
+__Quiz page - Desktop Scores__ ![Quiz page - Desktop Scores](assets/media/DesktopQuizPageLighthouseTest.png)
 
-__Submit score page - Desktop Scores__ ![Submit score page - Desktop Scores](media/DesktopEndpageLighthouseTestScores.png)
+__Submit score page - Desktop Scores__ ![Submit score page - Desktop Scores](assets/media/DesktopEndpageLighthouseTestScores.png)
 
-__Leaderboard page - Desktop Scores__ ![Leaderboard page - Desktop Scores](media/DesktopHighscoresPageLighthouseTestScore.png)
+__Leaderboard page - Desktop Scores__ ![Leaderboard page - Desktop Scores](assets/media/DesktopHighscoresPageLighthouseTestScore.png)
 
 
 ### Mobile View Lighthouse Scores:
 
-__Home Page Lighthouse Test Results__ ![Home page - Mobile Scores](media/MobileHomepageLighthouseTestScores.png)
+__Home Page Lighthouse Test Results__ ![Home page - Mobile Scores](assets/media/MobileHomepageLighthouseTestScores.png)
 
-__Quiz Page Lighthouse Test Results__ ![Quiz page - Mobile Scores](media/MobileQuizPageLighthouseTestScores.png)
+__Quiz Page Lighthouse Test Results__ ![Quiz page - Mobile Scores](assets/media/MobileQuizPageLighthouseTestScores.png)
 
-__End Page Lighthouse Test Results__ ![Submit score page - Mobile Scores](media/MobileEndPageLighthouseTestScores.png)
+__End Page Lighthouse Test Results__ ![Submit score page - Mobile Scores](assets/media/MobileEndPageLighthouseTestScores.png)
 
-__Leaderboard page - Mobile Scores__ ![Leaderboard page - Mobile Scores](media/MobileHighscorespageLighthouseTestScores.png)
+__Leaderboard page - Mobile Scores__ ![Leaderboard page - Mobile Scores](assets/media/MobileHighscorespageLighthouseTestScores.png)
 
 Lighthouse testing evaluates a website’s performance, accessibility, best practices, and SEO. Here’s why running these tests for this site was important:
 
@@ -302,7 +302,7 @@ __1__ - As a **user** I want **to easily start the quiz from the home screen** s
 
 - *First Impressions:* The home screen is often the first point of interaction users have with the quiz application. A clear, easily accessible start button ensures a positive first impression and encourages users to engage with the content.
 
-![User story 1 Test](media/user-story-1.png)
+![User story 1 Test](assets/media/user-story-1.png)
 
 __2__ - As a **user** I want **to see the current question number and my score as I progress through the quiz** so that **I can keep track of my performance**.
 
@@ -310,7 +310,7 @@ __2__ - As a **user** I want **to see the current question number and my score a
 
 - *Real-Time Feedback:* Showing the score in real-time allows users to gauge their performance and encourages them to strive for better results. It adds an element of gamification, making the quiz more engaging and competitive.
 
-![User story 2 Test](media/user-story-2.png)
+![User story 2 Test](assets/media/user-story-2.png)
 
 __3__ - As a **user**, I want **the quiz questions to be displayed clearly with multiple-choice options** so that **I can easily select my answers**.
 
@@ -318,7 +318,7 @@ __3__ - As a **user**, I want **the quiz questions to be displayed clearly with 
 
 - *Intuitive Design:* A clear and intuitive interface enhances user engagement by making the quiz easy and enjoyable to interact with. This is essential for keeping users interested and encouraging them to complete the quiz.
 
-![User story 3 Test](media/user-story-3.png)
+![User story 3 Test](assets/media/user-story-3.png)
 
 __4__ - As a **user**, I want **to receive immediate feedback on my score after each question** so that **I can know how well I’m doing in real-time**.
 
@@ -326,7 +326,7 @@ __4__ - As a **user**, I want **to receive immediate feedback on my score after 
 
 - *User-Centric Design:* Providing real-time feedback aligns with user expectations in modern interactive applications. Ensuring this feature works correctly is crucial for meeting user needs and delivering a polished product.
 
-![User story 4 Test](media/user-story-4.png)
+![User story 4 Test](assets/media/user-story-4.png)
 
 __5__ - As a **user**, I want **to view my final score after completing the quiz** so that **I can reflect on my overall performance**.
 
@@ -334,7 +334,7 @@ __5__ - As a **user**, I want **to view my final score after completing the quiz
 
 - *Reflection and Learning:* Viewing the final score allows users to reflect on their performance, identify areas where they did well, and recognize where they need improvement. This reflective process is important for users who take quizzes for learning purposes.
 
-![User story 5 Test](media/user-story-5.png)
+![User story 5 Test](assets/media/user-story-5.png)
 
 __6__ - As a **user**, I want **to be required to enter my name before saving my score** so that **the leader board displays personalized entries**.
 
@@ -342,7 +342,7 @@ __6__ - As a **user**, I want **to be required to enter my name before saving my
 
 - *Authenticity:* Requiring a name entry before saving a score ensures that each score is authentic and traceable to a specific user. This reduces the likelihood of users attempting to manipulate the leaderboard with multiple anonymous entries.
 
-![User story 6 Test](media/user-story-6.png)
+![User story 6 Test](assets/media/user-story-6.png)
 
 __7__ - As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
 
@@ -351,7 +351,7 @@ __7__ - As a **user**, I want **to see an error message if I try to save my scor
 - *Preventing Incomplete Entries:* Requiring a name entry before saving a score ensures that all leaderboard entries are complete and personalized. This maintains the integrity and usefulness of the leaderboard, preventing it from being cluttered with anonymous or incomplete entries.
 
 
-![User story 7 Test](media/user-story-7.png)
+![User story 7 Test](assets/media/user-story-7.png)
 
 __8__- As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
 
@@ -360,7 +360,7 @@ __8__- As a **user**, I want **to see the leaderboard with top scores after savi
 - *Informed Decision-Making:* Users can decide whether to take the quiz again to improve their ranking based on how they compare to the top scores, driving continued interaction with the quiz.
 
 
-![User story 8 Test](media/user-story-8.png)
+![User story 8 Test](assets/media/user-story-8.png)
 
 __9__- As a **user**, I want **to see a progression bar** so that **I can easily track how many questions remain in the quiz**.
 
@@ -368,7 +368,7 @@ __9__- As a **user**, I want **to see a progression bar** so that **I can easily
 
 
 
-![User story 9 Test](media/user-story-9.png)
+![User story 9 Test](assets/media/user-story-9.png)
 
 __10__ - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
@@ -376,7 +376,7 @@ __10__ - As a **user**, I want **the quiz game to be accessible and responsive o
 
 - *Enhanced Usability:* Responsive design ensures that all interactive elements (buttons, menus, etc.) are appropriately sized and functional on different devices. This enhances usability and encourages users to play the game more frequently.
 
-![User story 10 Test](media/user-story-10.png)
+![User story 10 Test](assets/media/user-story-10.png)
 
 __11__ - As a **site manager**, I want to **enhance the quiz application by introducing a 10-second timer for each of the 20 questions in the quiz** so that **I can increase the challenge and engagement level for users, making the quiz more dynamic and exciting while encouraging quick thinking and fair competition**.
 
@@ -384,7 +384,7 @@ __11__ - As a **site manager**, I want to **enhance the quiz application by intr
 
 - *Equal Opportunity:* Setting a uniform timer for all users ensures that everyone faces the same time constraints, promoting fairness in competition. This standardization helps level the playing field and ensures that scores are based on skill and knowledge, rather than timing advantages.
 
-![User story 11 Test](media/user-story-11.png)
+![User story 11 Test](assets/media/user-story-11.png)
 
 
 ### Features For Future Implementation
@@ -499,9 +499,6 @@ __10__ - __Local Storage Limits__
 ### Credits
 
 Credit to stack overflow on understanding certain concepts used in this project.
-
-
-## Acknowledgements
 
 - Chat GPT with suggesting questions included in the game.
 
