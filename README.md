@@ -346,9 +346,9 @@ __6__ - As a **user**, I want **to be required to enter my name before saving my
 
 __7__ - As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
 
-- *Enhanced User Experience:* Error messages are a critical part of user experience design. By providing immediate feedback on what went wrong, the application helps users correct their mistakes quickly, leading to a smoother and more intuitive interaction. In this application, the save button wont be clickable before user enters their name.
+- *Enhanced User Experience:* Error messages are a critical part of user experience design. By providing immediate feedback on what went wrong, the application helps users correct their mistakes quickly, leading to a smoother and more intuitive interaction. 
 
-- *Preventing Incomplete Entries:* Requiring a name entry before saving a score ensures that all leaderboard entries are complete and personalized. This maintains the integrity and usefulness of the leaderboard, preventing it from being cluttered with anonymous or incomplete entries.
+- *Preventing Incomplete Entries:* Requiring a name entry before saving a score ensures that all leaderboard entries are complete and personalized. This maintains the integrity and usefulness of the leaderboard, preventing it from being cluttered with anonymous or incomplete entries. In this application, An *Event Listener* function was implemented in the JavaScript end page code to ensure that until user enters their name to save their final score, the save button is clickable, otherwise the __Save button__ is disabled by default.
 
 
 ![User story 7 Test](assets/media/user-story-7.png)
