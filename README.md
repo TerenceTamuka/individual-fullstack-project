@@ -122,7 +122,7 @@ Handle scenarios where the user navigates away from the quiz or refreshes the pa
 
 | **Home page** | **Quiz Page** | **End Page** |  **High Scores Page**  | 
 |---|---|---|---|
-| Welcome  Page displaying prompt message and two navbars to play or view top scores  | Quiz Game containing 20 questions with a 10 seconds timer  | Final Score displayed with *Name requirement* to save score and additional navbars to either play again or return home  |  Leaderboard Displaying top 5 highscores with respective player names  |
+| Welcome  Page displaying prompt message and two navbars to play or view top scores  | Quiz Game containing 20 multiple choice questions with a 10 seconds timer, progess bar and a score update after each correct answer  | Final Score displayed with *Name requirement* to save score and additional navbars to either play again or return home  |  Leaderboard Displaying top 5 highscores with respective player names  |
 
 
 |  **Features**  |  **Value**  | **Effort**  |
