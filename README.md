@@ -190,9 +190,9 @@ __Progress Bar color__ - Green
 
 __Question, Score and Answer color__ - White
 
-__Correct Answer__ - Green
+__Correct Answer__ - Dark Green for better color contrast ratio on background and foreground readability
 
-__Incorrect Answer__ - Red
+__Incorrect Answer__ - Dark Red for better color contrast ratio on background and foreground readability
 
 __Answers Choice containter__ - Rust or Dark Orange
 
