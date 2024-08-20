@@ -36,7 +36,7 @@ body {
 }
 
 .correct {
-    background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+    background: linear-gradient(90deg, rgba(5, 112, 18, 1) 0%, rgba(20, 155, 67, 1) 100%);
 }
 
 .incorrect {
@@ -88,7 +88,7 @@ body {
 
     }
     .correct {
-        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+        background: linear-gradient(90deg, rgba(5, 112, 18, 1) 0%, rgba(20, 155, 67, 1) 100%);
     }
     
     .incorrect {
@@ -122,7 +122,7 @@ body {
         background: rgb(179, 63, 12);
     }
     .correct {
-        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+        background: linear-gradient(90deg, rgba(5, 112, 18, 1) 0%, rgba(20, 155, 67, 1) 100%);
     }
     
     .incorrect {
